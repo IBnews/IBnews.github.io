@@ -1,4 +1,7 @@
-## Note From the Editor
+
+Thank you for reading the IB News. Due to the currently-demanding schedule for us IB 2 students, the paper's release was slightly delayed. However, expect new articles to appear regularly from now on.
+
+<!--more--> 
 
 To the IB students of MH (and anyone else with an interest in student newspapers),
 
