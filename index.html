@@ -1,62 +1,312 @@
----
-layout: post-index
-title: Latest Posts
-description: "Describe this nonsense."
-tags: [Jekyll, theme, themes, responsive, blog, modern]
-image:
-  feature: abstract-1.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
----
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Latest Posts &#8211; IBnews</title>
+<meta name="description" content="Describe this nonsense.">
+<meta name="keywords" content="Jekyll, theme, themes, responsive, blog, modern">
 
-{% for post in paginator.posts %}
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Latest Posts">
+<meta property="og:description" content="Describe this nonsense.">
+<meta property="og:url" content="http://localhost:4000/index.html">
+<meta property="og:site_name" content="IBnews">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="IBnews Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.min.css">
+<!-- Webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+<style type="text/css">body {background-image:url(http://localhost:4000/images/ps_neutral.png);}</style>
+
+
+</head>
+
+<body id="post-index" class="feature" itemscope itemtype="http://schema.org/WebPage">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://localhost:4000/images/" alt="IBnews photo" class="author-photo">
+					<h4>IBnews</h4>
+					<p>Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.</p>
+				</li>
+				<li><a href="http://localhost:4000/about/">Learn More</a></li>
+				<li>
+					<a href="mailto:ibnews137@gmail.com"><i class="icon-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="http://localhost:4000/archive/">All Posts</a></li>
+				<li><a href="http://localhost:4000/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		<li><a href="http://localhost:4000/theme-setup">Theme Setup</a></li><li><a href="http://mademistakes.com">External Link</a></li>
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+<div class="entry-header">
+  
+    <div class="entry-image"><img src="http://localhost:4000/images/abstract-1.jpg" alt="Latest Posts" itemprop="image">
+      <div class="image-credit">Image source: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
+    </div><!-- /.entry-image -->
+  
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>IBnews</h1>
+      <h2 itemprop="name">Latest Posts</h2>
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  
 <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>{% if site.disqus_shortname and post.comments %}&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="{{ site.url }}{{ post.url }}#disqus_thread">Comment</a></span>{% endif %}</div><!-- /.entry-meta -->
-    {% if post.link %}
-      <h1 class="entry-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" itemprop="url" title="{{ post.title }}"><i class="icon-double-angle-right"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
-    {% else %}
-      <h1 class="entry-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
-    {% endif %}
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2013-11-12T00:00:00-05:00" itemprop="datePublished"><a href="http://localhost:4000/welcome-to-the-world-cup">November 12, 2013</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About IBnews" itemprop="url">IBnews</a></span></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title" itemprop="name"><a href="http://localhost:4000/welcome-to-the-world-cup" rel="bookmark" title="Welcome To The World Cup" itemprop="url">Welcome To The World Cup</a></h1>
+    
   </header>
   <div class="entry-content" itemprop="description">
-    {{ post.content }}
+    <p>Andrés Silva</p>
+
+<p>12 of June 2014 is the date in the back of every football fan’s head. The most anticipated sporting event in the world approaches, and every day the hype for it increases monumentally. However, there is still some time before the big kick-off, and there are a number of countries still fighting for a place in the most prestigious competition in football. Teams that are expected to challenge for the trophy by tradition, underdogs from the group stages and some of the familiar faces for the last chance match will meet on November 13 and 15 for some of the toughest matches of the year.</p>
+
+<p>UEFA Qualification Play-Off     (November 15)
+Greece     vs.    Romania
+Iceland     vs.    Croatia
+Ukraine     vs.    France
+Portugal    vs.    Sweden
+Inter-confederation Qualification Play-Off     (November 13)
+Jordan    vs.    Uruguay
+Mexico    vs.    New Zealand</p>
+
+<p>Portugal will play Sweden on November 15, a match seen by many as Cristiano Ronaldo vs. Zlatan Ibrahimovic; two of the very best footballers in the world fighting for a spot in the World Cup. Whoever loses this match will be undoubtedly missed in the World Cup, but the promise of such an intense contest may help relieve the pain of having players of such caliber absent from the big event.
+Iceland will play Croatia on the same day: the underdogs vs. the overachievers. Iceland gave a big surprise when they finished second in their group and showed that they were no longer a team to take lightly, but Croatia played some of the best football they have ever played in the past few years, and they now find themselves 18th in the FIFA ranking for national teams.
+Ukraine is not seen as an equal team to France, but “Les Bleus” will have to play well to win this match. France lifted their form immensely over the last couple of months, but according to FIFA, it was not enough to top the world’s number one: Spain.
+Uruguay and Mexico are expected to easily deal with Jordan and New Zealand, respectively, but it is often said that anything can happen in football.
+All of the footballing fans will want to know the results of these matches, but for now, all there is left to do is to wait for mid-November. Anything may happen and nothing is certain, but struggle, tears, quality football, and goals will come when the last push arrives.</p>
+
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
-{% endfor %}
+
+<article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2013-11-12T00:00:00-05:00" itemprop="datePublished"><a href="http://localhost:4000/the-ib-football-team">November 12, 2013</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About IBnews" itemprop="url">IBnews</a></span></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title" itemprop="name"><a href="http://localhost:4000/the-ib-football-team" rel="bookmark" title="The Ib Football Team" itemprop="url">The Ib Football Team</a></h1>
+    
+  </header>
+  <div class="entry-content" itemprop="description">
+    <p>Andrés Silva</p>
+
+<p>As an idea for a CAS Project, a couple of friends from IB decided to form, manage, coach, and play on a football team. They named it Cheese-Pizza Football Team, sometimes referred simply as C.P.F.C, and it was officially founded September 10th, 2013. Their first practice took place only four days after, on the following Saturday. The team quickly recruited players from different nationalities, and in the short time from the club’s birth to its first practice, the club already had 15 players attend the first practice. As weeks have gone by , the team has kept growing, both in members and in skill level. Being an IB-originated club, English being the spoken language amongst the members of the team was to be expected. But with the diverse nationalities of the team, Spanish is quite prevalent as well. The team has one practice per week in which every member has the chance to meet new people, gain some fitness, and enjoy a good football match. Anybody that plays football or wishes to learn how to play is invited to take part in practice.</p>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2013-11-12T00:00:00-05:00" itemprop="datePublished"><a href="http://localhost:4000/the-government-shutdown">November 12, 2013</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About IBnews" itemprop="url">IBnews</a></span></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title" itemprop="name"><a href="http://localhost:4000/the-government-shutdown" rel="bookmark" title="The Government Shutdown" itemprop="url">The Government Shutdown</a></h1>
+    
+  </header>
+  <div class="entry-content" itemprop="description">
+    <p>Björn Björnsson</p>
+
+<p>By now, it should be quite clear that the majority of Republicans strongly oppose the Affordable Care Act (popularly known as “Obamacare”). Here is an explanation of how and why the government was shut down:</p>
+
+<p>Every year, United States Congress (i.e. the House of Representatives and Senate) has to pass spending bills. The annual deadline for this is September 30th. This year, however, the spending bills did not get passed due to a disagreement between the two parties: Republicans of the House of Representatives wanted to pass spending bills that would effectively defund Obamacare. Democrats of the Senate, of course, wanted the opposite (it is important to note that Republicans have the majority vote in the House, whereas Democrats have the majority in the Senate; if one of the two parties were to rule both chambers of Congress, the shutdown would not have occurred). Harry Reid, Senate Majority Leader, said the Senate Democrats would “not go to conference with a gun to [their] head.” The lack of consensus lead to the government shutting down. </p>
+
+<p>During the shutdown, approximately 800,000 federal employees were furloughed and did not receive pay. National parks and monuments were closed off. With money not being earned by the federal employees and no money being spent on national parks and monuments, one must wonder how the US economy was affected by the shutdown.</p>
+
+<p>Standard &amp; Poor estimated that the shutdown cost the United States $24 billion. Despite the wide acceptance of this figure, the cost has been questioned by some. Forbes.com claims that the government shutdown will have no long-term economic impact at all; for example, the money lost from not going to tourist sites will likely have been spent somewhere else instead. Though almost all federal employees were not paid during the shutdown (with the exception of Congress, the President, and a few others), these employees will be paid for those days of work during the shutdown. Despite this evidence that the US economy may not have been affected, it is important to not that the US dollar decreased during the government shutdown and has continued to decrease. Correlation does not imply causation, but the figure of $24 billion may have made the world market uneasy; for example, the Dow Jones Industrial Average fell 133 points on the 14th of October.</p>
+
+<p>The effects of the shutdown do not stop there: a recent Gallup poll revealed that the Republican Party currently has a 28% approval rating—an all-time low. This begs the question: will this mean a lot of Republicans won’t be re-elected for Congress next year? At first glance, it may seem so. That is, until one looks back at the statistics of 2008: 94% of Congress was re-elected, despite an approval rating of 19%. There are two main causes of these numbers—timing and gerrymandering. It is rather easy to conclude that Republicans would never have made this type of decision during an election year. If the past is any indication of the future, then one can assume that the general public will not remember the impact of the shutdown as clearly a year from now as they presently do. Of course, the Democratic Party is hoping to keep the events of early October fresh in our memories, already making Facebook posts that tell the voters to remember what happened. The other primary cause of these numbers is gerrymandering.</p>
+
+<p>Gerrymandering is an interesting loophole in the American legal system. When looking at a map of voting districts, one may wonder how they all got their peculiar shapes. Essentially, gerrymandering is the altering of a voting district in favor of a political party. In other words, This allows this district’s representative (or another member of their party) to remain in office longer than they may otherwise have. This could explain the shocking differences between approval rating and re-election rates. 
+Gerrymandering will often lead to some districts having many more voters than others (malapportionment), which will effectively give some voters more power than others (voters in districts low in people will have more of a say in the election of a representative). This will in turn be a biased representation of the public’s opinion; if everyone is not getting an equal say when voting, then the elected representation will not be accurate. Malapportionment has, however, gotten better; the 1964 US Supreme Court case of Reynolds v. Sims ruled that state legislative districts must be equal in proportion. At the time, some district population sizes varied by as much as 1,081:1. However, the main problem of gerrymandering still remains: new district lines are able to be drawn in order to favor a political party.</p>
+
+<p>On October 16th, the debt ceiling—the limit determined by Congress on how much money the federal government can borrow—was raised. This “fix,” however, is quite temporary. The same process of passing spending bills will occur again in January. It’ll be interesting to see whether history will, once again, repeat itself.</p>
+
+<p>Sources: http://www.opensecrets.org/bigpicture/reelect.php
+ http://www.gallup.com/poll/145238/congress-job-approval-rating-worst-gallup-history.aspx
+http://thehill.com/blogs/blog-briefing-room/news/327553-gallup-gop-records-worst-favorability-rating-for-either-party-ever#ixzz2hFjNACgT
+http://www.cnn.com/2013/09/30/politics/government-shutdown-up-to-speed/index.html
+http://www.cnn.com/2013/10/16/politics/shutdown-showdown/
+http://www.forbes.com/sites/jeffreydorfman/2013/10/22/there-will-be-no-24b-economic-loss-from-the-government-shutdown/</p>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2013-11-12T00:00:00-05:00" itemprop="datePublished"><a href="http://localhost:4000/note-from-the-editor">November 12, 2013</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About IBnews" itemprop="url">IBnews</a></span></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title" itemprop="name"><a href="http://localhost:4000/note-from-the-editor" rel="bookmark" title="Note From The Editor" itemprop="url">Note From The Editor</a></h1>
+    
+  </header>
+  <div class="entry-content" itemprop="description">
+    
+<p>Thank you for reading the IB News. Due to the currently-demanding schedule for us IB 2 students, the paper’s release was slightly delayed. However, expect new articles to appear regularly from now on.</p>
+
+<!--more-->
+
+<p>To the IB students of MH (and anyone else with an interest in student newspapers),</p>
+
+<p>Thank you for reading the IB News. Due to the currently-demanding schedule for us IB 2 students, the paper’s release was slightly delayed. However, expect new articles to appear regularly from now on.
+You may be wondering what this newspaper is exactly. The IB News brings its readers relevant news, activities, and opinions, all brought forth in a professional manner. In comparison to a regular newspaper, these articles attempt to cover more at once while still being accessible and informative.
+If you’re an IB student and would like to write for this newspaper, please let me know. The more writers, the better the newspaper. You could either write sporadically or become a full-time writer for us—both would be appreciated.
+Enjoy the paper.</p>
+
+<p>Björn Björnsson</p>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2013-11-12T00:00:00-05:00" itemprop="datePublished"><a href="http://localhost:4000/hermione-did-not-hate-pure-bloods">November 12, 2013</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About IBnews" itemprop="url">IBnews</a></span></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title" itemprop="name"><a href="http://localhost:4000/hermione-did-not-hate-pure-bloods" rel="bookmark" title="Hermione Did Not Hate Pure Bloods" itemprop="url">Hermione Did Not Hate Pure Bloods</a></h1>
+    
+  </header>
+  <div class="entry-content" itemprop="description">
+    <p>«««&lt; HEAD
+Elitism in Nerd Culture</p>
+
+<p>Rebekka Mitra</p>
+
+<p>Us nerds have come a long way since the days of hiding in our parents’ basements, reassembling Xerox Altoa and IBM 5100 and finding solace in the worlds of J.R.R. Tolkien and Orson Scott Card between stinky bathroom stalls. Social misfits in the mundane and confining lives of our high school contemporaries, we passionately chose to escape to worlds where anything was possible and live adventures we knew suburbia could never offer us. Rejected by the jocks and cheerleaders seeking an easy target, we eventually found each other and moved from bathroom stalls to rallying at our own table in lunchrooms of testosterone and pretend. Eventually, things got better – we increased in numbers, the quarterback who used to bully us for our lunch money, now the cashier at the local tank station, looks at us with a pitiful mixture shame and spiteful jealousy and we feel all of the vengeful pride in being undeniably superiour to him. Eternal geek Bill Gates became one of the richest and idolized men in the world, superhero movies made record sales in the box office, the computers we used to be the only ones invested in were safely planted into all homes in the western world and suddenly we found ourselves in a world of “I heart nerds”, square rimmed glasses, proclamations of “intelligence is sexy” and “geek is the new black.” Discussions of the inner workings of Skyrim in the lunch room were now inexplicably commonplace, and to us, haven gotten used to being the alien in the planet of society, this change did nothing but perturb us. We, the suffering of that time clouded by bitter nostalgia, longingly looked back to the time of bathroom stalls and dusty basements. And in this midst of our feelings of saudade we came to resent anyone a part of the “them” claiming to be a part of the “us.”</p>
+
+<p>It is this phenomenon that the theories of self-categorisation and social identity seek to explain, both bringing the basic truth to the table: We care a lot about belonging to a predetermined social group or identity. So much in fact that we actively and passively work to construct our existence to conform to the norms and values of the group, our so-called “in-group”, and repudiate those who belong to supposedly conflicting groups, the “out-groups”. This problem exacerbates as a result of the power of accentuation, which exaggerates the differences between your in-group and out-group; the uniformity of the members in the groups, and finally, by the power of positive distinctiveness: the will to think of your group as better than the other groups. What can we conclude from this? Being a nerd is important to nerds and equally that others are non-nerds. If one would make the claim that being the special one – the outcast – was instrumental to the identity of a nerd, then the elimination of this element, and according to the more paranoid nerds, brought upon by “them,” would surely make them anxious about the future of the group, and thereby their own.</p>
+
+<p>For it is in this all-encompassing adaptation of our group’s characteristics to our own being that we lose ourselves and become the vehement knight guards of the port of entry into our “–dom” or “-ism.” We create ourselves, and in this process, nerds have come to meticulously imitate what we think a nerd is obligated to be in a copy-paste motion that is nothing but treacherous to ourselves. Social psychologist J.C. Turner (1985) explains: “[p]eople tend to see themselves more as the interchangeable exemplars of a social category than as unique personalities defined by their differences from others…”. Add a heightened sense of pride to this, and you will see an example of a “collective narcissist,” an individual with inflated self-love toward his or her in-group. According to social psychologists, this element is especially strong in individuals with low or damaged egos, who will seek solace in belonging to the group and see it as a defining extension of themselves, committing themselves to defend it staunchly. Furthermore, when these devout members of the group experience a difference between themselves and a fellow in-group member, they will, according to social psychology, recategorize that person to reflect these differences, which is perilous to the growth of these people, as one can predict an unhealthy urge not to want to be subject to recategorization.</p>
+
+<p>This, mixed with the paranoia of thinking that the nerd community is being infiltrated by pretenders seeking attention, transforms a previously positive and accepting community into an unwelcoming one where one must constantly prove one’s “geek cred” in order to deserve the title. Newcomers have it especially bad: In between perpetually subjugating them to trial by fire to substantiate their authenticity and never saving a breath before rubbing their lesser trivia knowledge in their innocent faces, we have forgotten that we, too, weren’t born with George Lucas’ biography installed into our brains. Shouting “noob” at anyone trifling enough not to be as up-to-date with our favourite games and shows, we have become what we despised, the snobby jocks bumping chests to affirm who’s the boss.</p>
+
+<p>Online you hear cries of blasphemy at these “cool kids” pretending to know what’s up—the pretty boys and girls who only hopped on the bandwagon because they were attracted to Sheldon Cooper’s quirkiness—the falsely constructed concept of the “Fake Geek Girl”. This meme assumes that these shallow girls are lying to everyone to attract male attention. Examples include “OMG STAR TREK IS SOO COOL – I LOVE LUKE SKYWALKER”, a picture of an unruly tomboy with the inscription “Real Nerd” and one of a princess, the “Not Real Nerd.” It seems that the thought that women will present themselves in certain ways is always for no other purpose but to please the dudes can be found anywhere. In the rejection of the conventionally attractive female nerd, nerds have immortalized the negative stereotypes imposed upon them. Women of this sub-culture thus find themselves in a perplexing paradox where their male counterparts largely, no eyebrows raised, accept the underrepresented and overly sexualized female characters in nerd entertainment, the game industry being the worst of them all, yet decry the voluntarily sexualized actual female wanting in for dishonesty. Tony Harris, popular American comic book artist, recently posted a heated rant to his Facebook page shaming the scantily clad female cosplayers for “not knowing shit about comics”, being “more pathetic than the REAL Nerds, who [THEY] secretly think are REALLY PATHETIC” and preying on the poor inexperienced nerd boys, embarrassingly failing to understand that nothing will ever give him or any other person the authority to stamp a person, nerd or non-nerd, no matter if he owns all of the Avenger comics ever published, no matter if he himself is the creator of them.</p>
+
+<h1 id="and-so-we-have-become-the-very-thing-we-hid-in-the-bathroom-stalls-from-remorselessly-seeking-to-retain-the-authority-we-suffered-under-holding-everyone-who-dares-to-want-to-sit-at-our-table-to-stupendously-high-and-narrow-standards-wallowing-around-in-our-new-found-pride-hiding-the-scared-little-kid-that-didnt-fit-in-still-very-much-alive-and-kicking-within-us-so-we-have-made-a-positive-community-built-by-the-ones-no-one-else-would-accept-into-one-where-the-constant-need-to-prove-yourself-trumps-what-lured-us-in-in-the-first-place-yet-nothing-is-hopeless-and-pronouns-can-be-changed-from-them-to-us-so-if-you-see-a-science-fiction-first-timer-enthusiastically-raving-about-the-most-basic-nerd-knowledge-do-not-in-a-knee-jerk-reaction-act-superiour-and-shoot-their-hopeful-dreams-down-but-invite-them-a-seat-at-your-table-and-let-them-grow">And so we have become the very thing we hid in the bathroom stalls from, remorselessly seeking to retain the authority we suffered under, holding everyone who dares to want to sit at our table to stupendously high and narrow standards, wallowing around in our new-found pride hiding the scared little kid that didn’t fit in, still very much alive and kicking within us. So we have made a positive community built by the ones no one else would accept into one where the constant need to prove yourself trumps what lured us in in the first place. Yet nothing is hopeless, and pronouns can be changed from “them” to “us.” So if you see a science-fiction first-timer enthusiastically raving about the most basic nerd knowledge, do not, in a knee-jerk reaction, act superiour and shoot their hopeful dreams down, but invite them a seat at your table and let them grow.</h1>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <p>b52054c303a01650d06897d2f9bf6d87d69587f8</p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
 
 <div class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <a href="{{ site.url }}" class="btn">Previous</a>
-    {% else %}
-      <a href="{{ site.url }}/page{{ paginator.previous_page }}" class="btn">Previous</a>
-    {% endif %}
-  {% else %}
+  
     Previous
-  {% endif %}
+  
   <ul class="inline-list">
     <li>
-      {% if paginator.page == 1 %}
+      
         <span class="current-page">1</span>
-      {% else %}
-        <a href="{{ site.url }}">1</a>
-      {% endif %}
+      
     </li>
-    {% for count in (2..paginator.total_pages) %}
+    
       <li>
-        {% if count == paginator.page %}
-          <span class="current-page">{{ count }}</span>
-        {% else %}
-          <a href="{{ site.url }}/page{{ count }}">{{ count }}</a>
-        {% endif %}
+        
+          <a href="http://localhost:4000/page2">2</a>
+        
       </li>
-    {% endfor %}
+    
   </ul>
-  {% if paginator.next_page %}
-    <a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn">Next</a>
-  {% else %}
-    Next
-  {% endif %}
+  
+    <a href="http://localhost:4000/page2" class="btn">Next</a>
+  
 
 </div>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2013 IBnews. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+          
+
+</body>
+</html>
