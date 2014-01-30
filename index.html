@@ -1,62 +1,193 @@
----
-layout: post-index
-title: Latest Posts
-description: "Describe this nonsense."
-tags: [Jekyll, theme, themes, responsive, blog, modern]
-image:
-  feature: abstract-1.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
----
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Latest Posts &#8211; Site Title</title>
+<meta name="description" content="Describe this nonsense.">
+<meta name="keywords" content="Jekyll, theme, themes, responsive, blog, modern">
 
-{% for post in paginator.posts %}
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Latest Posts">
+<meta property="og:description" content="Describe this nonsense.">
+<meta property="og:url" content="http://localhost:4000/index.html">
+<meta property="og:site_name" content="Site Title">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.min.css">
+<!-- Webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+<style type="text/css">body {background-image:url(http://localhost:4000/images/ps_neutral.png);}</style>
+
+
+</head>
+
+<body id="post-index" class="feature" itemscope itemtype="http://schema.org/WebPage">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://localhost:4000">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://localhost:4000/images/avatar.jpg" alt="Your Name photo" class="author-photo">
+					<h4>Your Name</h4>
+					<p>Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.</p>
+				</li>
+				<li><a href="http://localhost:4000/about/">Learn More</a></li>
+				<li>
+					<a href="mailto:you@email.com"><i class="icon-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="http://localhost:4000/archive/">All Posts</a></li>
+				<li><a href="http://localhost:4000/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		<li><a href="http://localhost:4000/theme-setup">Theme Setup</a></li><li><a href="http://mademistakes.com">External Link</a></li>
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+<div class="entry-header">
+  
+    <div class="entry-image"><img src="http://localhost:4000/images/abstract-1.jpg" alt="Latest Posts" itemprop="image">
+      <div class="image-credit">Image source: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
+    </div><!-- /.entry-image -->
+  
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>Site Title</h1>
+      <h2 itemprop="name">Latest Posts</h2>
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  
 <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>{% if site.disqus_shortname and post.comments %}&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="{{ site.url }}{{ post.url }}#disqus_thread">Comment</a></span>{% endif %}</div><!-- /.entry-meta -->
-    {% if post.link %}
-      <h1 class="entry-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" itemprop="url" title="{{ post.title }}"><i class="icon-double-angle-right"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
-    {% else %}
-      <h1 class="entry-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
-    {% endif %}
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2013-10-11T00:00:00-04:00" itemprop="datePublished"><a href="http://localhost:4000/The-Government-Shutdown">October 11, 2013</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About Your Name" itemprop="url">Your Name</a></span></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title" itemprop="name"><a href="http://localhost:4000/The-Government-Shutdown" rel="bookmark" title="The Government Shutdown" itemprop="url">The Government Shutdown</a></h1>
+    
   </header>
   <div class="entry-content" itemprop="description">
-    {{ post.content }}
+    <p>Björn Björnsson</p>
+
+<p>By now, it should be quite clear that the majority of Republicans strongly oppose the Affordable Care Act (popularly known as “Obamacare”). Here is an explanation of how and why the government was shut down:</p>
+
+<p>Every year, United States Congress (i.e. the House of Representatives and Senate) has to pass spending bills. The annual deadline for this is September 30th. This year, however, the spending bills did not get passed due to a disagreement between the two parties: Republicans of the House of Representatives wanted to pass spending bills that would effectively defund Obamacare. Democrats of the Senate, of course, wanted the opposite (it is important to note that Republicans have the majority vote in the House, whereas Democrats have the majority in the Senate; if one of the two parties were to rule both chambers of Congress, the shutdown would not have occurred). Harry Reid, Senate Majority Leader, said the Senate Democrats would “not go to conference with a gun to [their] head.” The lack of consensus lead to the government shutting down. </p>
+
+<p>During the shutdown, approximately 800,000 federal employees were furloughed and did not receive pay. National parks and monuments were closed off. With money not being earned by the federal employees and no money being spent on national parks and monuments, one must wonder how the US economy was affected by the shutdown.</p>
+
+<p>Standard &amp; Poor estimated that the shutdown cost the United States $24 billion. Despite the wide acceptance of this figure, the cost has been questioned by some. Forbes.com claims that the government shutdown will have no long-term economic impact at all; for example, the money lost from not going to tourist sites will likely have been spent somewhere else instead. Though almost all federal employees were not paid during the shutdown (with the exception of Congress, the President, and a few others), these employees will be paid for those days of work during the shutdown. Despite this evidence that the US economy may not have been affected, it is important to not that the US dollar decreased during the government shutdown and has continued to decrease. Correlation does not imply causation, but the figure of $24 billion may have made the world market uneasy; for example, the Dow Jones Industrial Average fell 133 points on the 14th of October.</p>
+
+<p>The effects of the shutdown do not stop there: a recent Gallup poll revealed that the Republican Party currently has a 28% approval rating—an all-time low. This begs the question: will this mean a lot of Republicans won’t be re-elected for Congress next year? At first glance, it may seem so. That is, until one looks back at the statistics of 2008: 94% of Congress was re-elected, despite an approval rating of 19%. There are two main causes of these numbers—timing and gerrymandering. It is rather easy to conclude that Republicans would never have made this type of decision during an election year. If the past is any indication of the future, then one can assume that the general public will not remember the impact of the shutdown as clearly a year from now as they presently do. Of course, the Democratic Party is hoping to keep the events of early October fresh in our memories, already making Facebook posts that tell the voters to remember what happened. The other primary cause of these numbers is gerrymandering.</p>
+
+<p>Gerrymandering is an interesting loophole in the American legal system. When looking at a map of voting districts, one may wonder how they all got their peculiar shapes. Essentially, gerrymandering is the altering of a voting district in favor of a political party. In other words, This allows this district’s representative (or another member of their party) to remain in office longer than they may otherwise have. This could explain the shocking differences between approval rating and re-election rates. 
+Gerrymandering will often lead to some districts having many more voters than others (malapportionment), which will effectively give some voters more power than others (voters in districts low in people will have more of a say in the election of a representative). This will in turn be a biased representation of the public’s opinion; if everyone is not getting an equal say when voting, then the elected representation will not be accurate. Malapportionment has, however, gotten better; the 1964 US Supreme Court case of Reynolds v. Sims ruled that state legislative districts must be equal in proportion. At the time, some district population sizes varied by as much as 1,081:1. However, the main problem of gerrymandering still remains: new district lines are able to be drawn in order to favor a political party.</p>
+
+<p>On October 16th, the debt ceiling—the limit determined by Congress on how much money the federal government can borrow—was raised. This “fix,” however, is quite temporary. The same process of passing spending bills will occur again in January. It’ll be interesting to see whether history will, once again, repeat itself.</p>
+
+<p>Sources: http://www.opensecrets.org/bigpicture/reelect.php
+ http://www.gallup.com/poll/145238/congress-job-approval-rating-worst-gallup-history.aspx
+http://thehill.com/blogs/blog-briefing-room/news/327553-gallup-gop-records-worst-favorability-rating-for-either-party-ever#ixzz2hFjNACgT
+http://www.cnn.com/2013/09/30/politics/government-shutdown-up-to-speed/index.html
+http://www.cnn.com/2013/10/16/politics/shutdown-showdown/
+http://www.forbes.com/sites/jeffreydorfman/2013/10/22/there-will-be-no-24b-economic-loss-from-the-government-shutdown/</p>
+
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
-{% endfor %}
+
 
 <div class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <a href="{{ site.url }}" class="btn">Previous</a>
-    {% else %}
-      <a href="{{ site.url }}/page{{ paginator.previous_page }}" class="btn">Previous</a>
-    {% endif %}
-  {% else %}
+  
     Previous
-  {% endif %}
+  
   <ul class="inline-list">
     <li>
-      {% if paginator.page == 1 %}
+      
         <span class="current-page">1</span>
-      {% else %}
-        <a href="{{ site.url }}">1</a>
-      {% endif %}
+      
     </li>
-    {% for count in (2..paginator.total_pages) %}
-      <li>
-        {% if count == paginator.page %}
-          <span class="current-page">{{ count }}</span>
-        {% else %}
-          <a href="{{ site.url }}/page{{ count }}">{{ count }}</a>
-        {% endif %}
-      </li>
-    {% endfor %}
+    
   </ul>
-  {% if paginator.next_page %}
-    <a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn">Next</a>
-  {% else %}
+  
     Next
-  {% endif %}
+  
 
 </div>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 Your Name. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+          
+
+</body>
+</html>
