@@ -1,11 +1,18 @@
 
-http://username.github.io/sitemap.txt
-http://username.github.io/atom.xml
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/index.html
-http://username.github.io/archive.html
-http://username.github.io/categories.html
-http://username.github.io/tags.html
+/404.html
+/sitemap.txt
+/atom.xml
+/pages.html
+/rss.xml
+/index.html
+/index.html
+/archive.html
+/categories.html
+/tags.html
+/about.html
 
-http://username.github.io/2013/10/11/The-Government-Shutdown
+/2013-10/The-Government-Shutdown/
+/2013-10/Hermione-didn%27t-hate-pure-bloods/
+/2013-10/Weclome-to-the-World-Cup%21/
+/2013-10/The-IB-Football-Team/
+/2013-10/Gravity-Review/
